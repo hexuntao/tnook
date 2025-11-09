@@ -1,12 +1,6 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "globalDependencies": [
-    ".env",
-    ".env.*",
-    "**/.env",
-    "**/.env.*",
-    "**/tsconfig.json"
-  ],
+  "globalDependencies": [".env", ".env.*", "**/.env", "**/.env.*", "**/tsconfig.json"],
   "globalEnv": ["NODE_ENV"],
   "pipeline": {
     "build": {
@@ -23,4 +17,3 @@
     }
   }
 }
-
